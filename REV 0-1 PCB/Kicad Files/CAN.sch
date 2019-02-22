@@ -1,0 +1,273 @@
+EESchema Schematic File Version 4
+LIBS:FusIon Pack-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_CAN_LIN:ATA6561 U5
+U 1 1 5CBFEB3E
+P 5600 4150
+F 0 "U5" H 5600 4665 50  0000 C CNN
+F 1 "ATA6561" H 5600 4574 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5550 4150 50  0001 C CNN
+F 3 "" H 5550 4150 50  0001 C CNN
+	1    5600 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4200 5200 4200
+Wire Wire Line
+	4550 4300 5200 4300
+Wire Wire Line
+	4550 4400 5200 4400
+Text HLabel 4550 4200 0    50   Input ~ 0
+STBY
+Text HLabel 4550 4300 0    50   Input ~ 0
+TX
+Text HLabel 4550 4400 0    50   Input ~ 0
+RX
+$Comp
+L Device:C C46
+U 1 1 5CBFF93B
+P 5000 4800
+F 0 "C46" H 5115 4846 50  0000 L CNN
+F 1 "100n" H 5115 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5038 4650 50  0001 C CNN
+F 3 "~" H 5000 4800 50  0001 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 5CBFF989
+P 6350 4800
+F 0 "C47" H 6465 4846 50  0000 L CNN
+F 1 "100n" H 6465 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6388 4650 50  0001 C CNN
+F 3 "~" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3900 5000 3900
+Wire Wire Line
+	5000 3900 5000 4650
+Wire Wire Line
+	6350 3900 6350 4650
+Wire Wire Line
+	6000 3900 6350 3900
+Wire Wire Line
+	6100 4400 6000 4400
+Wire Wire Line
+	5000 5050 5000 5000
+Wire Wire Line
+	6100 4400 6100 5050
+Wire Wire Line
+	6350 5050 6350 4950
+$Comp
+L power:GNDS #PWR065
+U 1 1 5CBFFEC4
+P 5000 5050
+F 0 "#PWR065" H 5000 4800 50  0001 C CNN
+F 1 "GNDS" H 5005 4877 50  0000 C CNN
+F 2 "" H 5000 5050 50  0001 C CNN
+F 3 "" H 5000 5050 50  0001 C CNN
+	1    5000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR066
+U 1 1 5CBFFEDC
+P 6100 5050
+F 0 "#PWR066" H 6100 4800 50  0001 C CNN
+F 1 "GNDS" H 6105 4877 50  0000 C CNN
+F 2 "" H 6100 5050 50  0001 C CNN
+F 3 "" H 6100 5050 50  0001 C CNN
+	1    6100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR067
+U 1 1 5CBFFEED
+P 6350 5050
+F 0 "#PWR067" H 6350 4800 50  0001 C CNN
+F 1 "GNDS" H 6355 4877 50  0000 C CNN
+F 2 "" H 6350 5050 50  0001 C CNN
+F 3 "" H 6350 5050 50  0001 C CNN
+	1    6350 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3600 5000 3600
+Wire Wire Line
+	5000 3600 5000 3900
+Connection ~ 5000 3900
+Wire Wire Line
+	4550 3500 6350 3500
+Wire Wire Line
+	6350 3500 6350 3900
+Connection ~ 6350 3900
+Text HLabel 4550 3600 0    50   Input ~ 0
++3.3v
+Text HLabel 4550 3500 0    50   Input ~ 0
++5v
+Wire Wire Line
+	4550 5000 5000 5000
+Connection ~ 5000 5000
+Wire Wire Line
+	5000 5000 5000 4950
+Text HLabel 4550 5000 0    50   Input ~ 0
+SGND
+Wire Wire Line
+	7350 4100 7150 4100
+Wire Wire Line
+	7350 4200 6750 4200
+$Comp
+L Device:R R76
+U 1 1 5CC01353
+P 7150 4400
+F 0 "R76" H 7220 4446 50  0000 L CNN
+F 1 "100R" H 7220 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7080 4400 50  0001 C CNN
+F 3 "~" H 7150 4400 50  0001 C CNN
+	1    7150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R75
+U 1 1 5CC013F5
+P 6750 4400
+F 0 "R75" H 6820 4446 50  0000 L CNN
+F 1 "100R" H 6820 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 4400 50  0001 C CNN
+F 3 "~" H 6750 4400 50  0001 C CNN
+	1    6750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4250 6750 4200
+Connection ~ 6750 4200
+Wire Wire Line
+	6750 4200 6000 4200
+Wire Wire Line
+	7150 4100 7150 4250
+Connection ~ 7150 4100
+Wire Wire Line
+	7150 4100 6000 4100
+Wire Wire Line
+	6750 4550 6750 4650
+Wire Wire Line
+	6750 4650 6950 4650
+Wire Wire Line
+	7150 4650 7150 4550
+$Comp
+L Device:C C48
+U 1 1 5CC02035
+P 6950 4800
+F 0 "C48" H 7065 4846 50  0000 L CNN
+F 1 "10n" H 7065 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6988 4650 50  0001 C CNN
+F 3 "~" H 6950 4800 50  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6950 4650
+Wire Wire Line
+	6950 4650 7150 4650
+$Comp
+L power:GNDS #PWR068
+U 1 1 5CC023AA
+P 6950 5050
+F 0 "#PWR068" H 6950 4800 50  0001 C CNN
+F 1 "GNDS" H 6955 4877 50  0000 C CNN
+F 2 "" H 6950 5050 50  0001 C CNN
+F 3 "" H 6950 5050 50  0001 C CNN
+	1    6950 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5050 6950 4950
+Text HLabel 7350 4100 2    50   Input ~ 0
+CANH
+Text HLabel 7350 4200 2    50   Input ~ 0
+CANL
+Text Label 6100 3900 0    50   ~ 0
+VCAN
+Text Label 5050 3900 0    50   ~ 0
+VIO
+Text Label 6450 4100 0    50   ~ 0
+CANH
+Text Label 6450 4200 0    50   ~ 0
+CANL
+$Comp
+L Connector:TestPoint TP64
+U 1 1 5CA48FAA
+P 8500 3900
+F 0 "TP64" V 8500 4088 50  0000 L CNN
+F 1 "TestPoint" V 8545 4088 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8500 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP65
+U 1 1 5CA49033
+P 8500 4000
+F 0 "TP65" V 8500 4188 50  0000 L CNN
+F 1 "TestPoint" V 8545 4188 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 4000 50  0001 C CNN
+F 3 "~" H 8700 4000 50  0001 C CNN
+	1    8500 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP66
+U 1 1 5CA4905B
+P 8500 4100
+F 0 "TP66" V 8500 4288 50  0000 L CNN
+F 1 "TestPoint" V 8545 4288 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 4100 50  0001 C CNN
+F 3 "~" H 8700 4100 50  0001 C CNN
+	1    8500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP67
+U 1 1 5CA49081
+P 8500 4200
+F 0 "TP67" V 8500 4388 50  0000 L CNN
+F 1 "TestPoint" V 8545 4388 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8700 4200 50  0001 C CNN
+F 3 "~" H 8700 4200 50  0001 C CNN
+	1    8500 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 3900 8500 3900
+Wire Wire Line
+	7900 4000 8500 4000
+Wire Wire Line
+	7900 4100 8500 4100
+Wire Wire Line
+	7900 4200 8500 4200
+Text Label 7900 3900 0    50   ~ 0
+VIO
+Text Label 7900 4000 0    50   ~ 0
+VCAN
+Text Label 7900 4100 0    50   ~ 0
+CANH
+Text Label 7900 4200 0    50   ~ 0
+CANL
+$EndSCHEMATC

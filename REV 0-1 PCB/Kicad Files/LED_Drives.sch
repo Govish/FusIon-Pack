@@ -1,0 +1,1375 @@
+EESchema Schematic File Version 4
+LIBS:FusIon Pack-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C51B610
+P 4100 1050
+F 0 "Q?" H 4305 1096 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 4305 1005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 1050 50  0001 L CNN
+	1    4100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C51B773
+P 3650 1050
+F 0 "R?" V 3443 1050 50  0000 C CNN
+F 1 "100R" V 3534 1050 50  0000 C CNN
+F 2 "" V 3580 1050 50  0001 C CNN
+F 3 "~" H 3650 1050 50  0001 C CNN
+	1    3650 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C51B7A1
+P 3900 750
+F 0 "R?" V 3693 750 50  0000 C CNN
+F 1 "100R" V 3784 750 50  0000 C CNN
+F 2 "" V 3830 750 50  0001 C CNN
+F 3 "~" H 3900 750 50  0001 C CNN
+	1    3900 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C51B7BD
+P 3900 1300
+F 0 "R?" H 3970 1346 50  0000 L CNN
+F 1 "100K" H 3970 1255 50  0000 L CNN
+F 2 "" V 3830 1300 50  0001 C CNN
+F 3 "~" H 3900 1300 50  0001 C CNN
+	1    3900 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1450 3900 1500
+Wire Wire Line
+	3900 1500 4200 1500
+Wire Wire Line
+	4200 1500 4200 1250
+Wire Wire Line
+	3800 1050 3900 1050
+Wire Wire Line
+	3900 1150 3900 1050
+Connection ~ 3900 1050
+Wire Wire Line
+	3900 1050 4000 1050
+Wire Wire Line
+	3350 1050 3500 1050
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C51BACB
+P 4200 1600
+F 0 "#PWR?" H 4200 1350 50  0001 C CNN
+F 1 "GNDS" H 4205 1427 50  0000 C CNN
+F 2 "" H 4200 1600 50  0001 C CNN
+F 3 "" H 4200 1600 50  0001 C CNN
+	1    4200 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1600 4200 1500
+Connection ~ 4200 1500
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C545981
+P 6700 1050
+F 0 "Q?" H 6905 1096 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 6905 1005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6700 1050 50  0001 L CNN
+	1    6700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C545988
+P 6250 1050
+F 0 "R?" V 6043 1050 50  0000 C CNN
+F 1 "100R" V 6134 1050 50  0000 C CNN
+F 2 "" V 6180 1050 50  0001 C CNN
+F 3 "~" H 6250 1050 50  0001 C CNN
+	1    6250 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54598F
+P 6500 750
+F 0 "R?" V 6293 750 50  0000 C CNN
+F 1 "20R" V 6384 750 50  0000 C CNN
+F 2 "" V 6430 750 50  0001 C CNN
+F 3 "~" H 6500 750 50  0001 C CNN
+	1    6500 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C545996
+P 6500 1300
+F 0 "R?" H 6570 1346 50  0000 L CNN
+F 1 "100K" H 6570 1255 50  0000 L CNN
+F 2 "" V 6430 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1450 6500 1500
+Wire Wire Line
+	6500 1500 6800 1500
+Wire Wire Line
+	6800 1500 6800 1250
+Wire Wire Line
+	6400 1050 6500 1050
+Wire Wire Line
+	6500 1150 6500 1050
+Connection ~ 6500 1050
+Wire Wire Line
+	6500 1050 6600 1050
+Wire Wire Line
+	5950 1050 6100 1050
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C5459A6
+P 6800 1600
+F 0 "#PWR?" H 6800 1350 50  0001 C CNN
+F 1 "GNDS" H 6805 1427 50  0000 C CNN
+F 2 "" H 6800 1600 50  0001 C CNN
+F 3 "" H 6800 1600 50  0001 C CNN
+	1    6800 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1600 6800 1500
+Connection ~ 6800 1500
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C545C6E
+P 9200 1050
+F 0 "Q?" H 9405 1096 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 9405 1005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9200 1050 50  0001 L CNN
+	1    9200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C545C75
+P 8750 1050
+F 0 "R?" V 8543 1050 50  0000 C CNN
+F 1 "100R" V 8634 1050 50  0000 C CNN
+F 2 "" V 8680 1050 50  0001 C CNN
+F 3 "~" H 8750 1050 50  0001 C CNN
+	1    8750 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C545C7C
+P 9000 750
+F 0 "R?" V 8793 750 50  0000 C CNN
+F 1 "33R" V 8884 750 50  0000 C CNN
+F 2 "" V 8930 750 50  0001 C CNN
+F 3 "~" H 9000 750 50  0001 C CNN
+	1    9000 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C545C83
+P 9000 1300
+F 0 "R?" H 9070 1346 50  0000 L CNN
+F 1 "100K" H 9070 1255 50  0000 L CNN
+F 2 "" V 8930 1300 50  0001 C CNN
+F 3 "~" H 9000 1300 50  0001 C CNN
+	1    9000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1450 9000 1500
+Wire Wire Line
+	9000 1500 9300 1500
+Wire Wire Line
+	9300 1500 9300 1250
+Wire Wire Line
+	8900 1050 9000 1050
+Wire Wire Line
+	9000 1150 9000 1050
+Connection ~ 9000 1050
+Wire Wire Line
+	9000 1050 9100 1050
+Wire Wire Line
+	8450 1050 8600 1050
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C545C93
+P 9300 1600
+F 0 "#PWR?" H 9300 1350 50  0001 C CNN
+F 1 "GNDS" H 9305 1427 50  0000 C CNN
+F 2 "" H 9300 1600 50  0001 C CNN
+F 3 "" H 9300 1600 50  0001 C CNN
+	1    9300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1600 9300 1500
+Connection ~ 9300 1500
+Wire Wire Line
+	3350 750  3750 750 
+Wire Wire Line
+	4050 750  4200 750 
+Wire Wire Line
+	4200 750  4200 850 
+Wire Wire Line
+	5950 750  6350 750 
+Wire Wire Line
+	6650 750  6800 750 
+Wire Wire Line
+	6800 750  6800 850 
+Wire Wire Line
+	8450 750  8850 750 
+Wire Wire Line
+	9150 750  9300 750 
+Wire Wire Line
+	9300 750  9300 850 
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C549DBE
+P 4100 2200
+F 0 "Q?" H 4305 2246 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 4305 2155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 2125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 2200 50  0001 L CNN
+	1    4100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DC5
+P 3650 2200
+F 0 "R?" V 3443 2200 50  0000 C CNN
+F 1 "100R" V 3534 2200 50  0000 C CNN
+F 2 "" V 3580 2200 50  0001 C CNN
+F 3 "~" H 3650 2200 50  0001 C CNN
+	1    3650 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DCC
+P 3900 1900
+F 0 "R?" V 3693 1900 50  0000 C CNN
+F 1 "100R" V 3784 1900 50  0000 C CNN
+F 2 "" V 3830 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DD3
+P 3900 2450
+F 0 "R?" H 3970 2496 50  0000 L CNN
+F 1 "100K" H 3970 2405 50  0000 L CNN
+F 2 "" V 3830 2450 50  0001 C CNN
+F 3 "~" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2600 3900 2650
+Wire Wire Line
+	3900 2650 4200 2650
+Wire Wire Line
+	4200 2650 4200 2400
+Wire Wire Line
+	3800 2200 3900 2200
+Wire Wire Line
+	3900 2300 3900 2200
+Connection ~ 3900 2200
+Wire Wire Line
+	3900 2200 4000 2200
+Wire Wire Line
+	3350 2200 3500 2200
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C549DE2
+P 4200 2750
+F 0 "#PWR?" H 4200 2500 50  0001 C CNN
+F 1 "GNDS" H 4205 2577 50  0000 C CNN
+F 2 "" H 4200 2750 50  0001 C CNN
+F 3 "" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2750 4200 2650
+Connection ~ 4200 2650
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C549DEA
+P 6700 2200
+F 0 "Q?" H 6905 2246 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 6905 2155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 2125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6700 2200 50  0001 L CNN
+	1    6700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DF1
+P 6250 2200
+F 0 "R?" V 6043 2200 50  0000 C CNN
+F 1 "100R" V 6134 2200 50  0000 C CNN
+F 2 "" V 6180 2200 50  0001 C CNN
+F 3 "~" H 6250 2200 50  0001 C CNN
+	1    6250 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DF8
+P 6500 1900
+F 0 "R?" V 6293 1900 50  0000 C CNN
+F 1 "20R" V 6384 1900 50  0000 C CNN
+F 2 "" V 6430 1900 50  0001 C CNN
+F 3 "~" H 6500 1900 50  0001 C CNN
+	1    6500 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549DFF
+P 6500 2450
+F 0 "R?" H 6570 2496 50  0000 L CNN
+F 1 "100K" H 6570 2405 50  0000 L CNN
+F 2 "" V 6430 2450 50  0001 C CNN
+F 3 "~" H 6500 2450 50  0001 C CNN
+	1    6500 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2600 6500 2650
+Wire Wire Line
+	6500 2650 6800 2650
+Wire Wire Line
+	6800 2650 6800 2400
+Wire Wire Line
+	6400 2200 6500 2200
+Wire Wire Line
+	6500 2300 6500 2200
+Connection ~ 6500 2200
+Wire Wire Line
+	6500 2200 6600 2200
+Wire Wire Line
+	5950 2200 6100 2200
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C549E0E
+P 6800 2750
+F 0 "#PWR?" H 6800 2500 50  0001 C CNN
+F 1 "GNDS" H 6805 2577 50  0000 C CNN
+F 2 "" H 6800 2750 50  0001 C CNN
+F 3 "" H 6800 2750 50  0001 C CNN
+	1    6800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2750 6800 2650
+Connection ~ 6800 2650
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C549E16
+P 9200 2200
+F 0 "Q?" H 9405 2246 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 9405 2155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 2125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9200 2200 50  0001 L CNN
+	1    9200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549E1D
+P 8750 2200
+F 0 "R?" V 8543 2200 50  0000 C CNN
+F 1 "100R" V 8634 2200 50  0000 C CNN
+F 2 "" V 8680 2200 50  0001 C CNN
+F 3 "~" H 8750 2200 50  0001 C CNN
+	1    8750 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549E24
+P 9000 1900
+F 0 "R?" V 8793 1900 50  0000 C CNN
+F 1 "33R" V 8884 1900 50  0000 C CNN
+F 2 "" V 8930 1900 50  0001 C CNN
+F 3 "~" H 9000 1900 50  0001 C CNN
+	1    9000 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C549E2B
+P 9000 2450
+F 0 "R?" H 9070 2496 50  0000 L CNN
+F 1 "100K" H 9070 2405 50  0000 L CNN
+F 2 "" V 8930 2450 50  0001 C CNN
+F 3 "~" H 9000 2450 50  0001 C CNN
+	1    9000 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2600 9000 2650
+Wire Wire Line
+	9000 2650 9300 2650
+Wire Wire Line
+	9300 2650 9300 2400
+Wire Wire Line
+	8900 2200 9000 2200
+Wire Wire Line
+	9000 2300 9000 2200
+Connection ~ 9000 2200
+Wire Wire Line
+	9000 2200 9100 2200
+Wire Wire Line
+	8450 2200 8600 2200
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C549E3A
+P 9300 2750
+F 0 "#PWR?" H 9300 2500 50  0001 C CNN
+F 1 "GNDS" H 9305 2577 50  0000 C CNN
+F 2 "" H 9300 2750 50  0001 C CNN
+F 3 "" H 9300 2750 50  0001 C CNN
+	1    9300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2750 9300 2650
+Connection ~ 9300 2650
+Wire Wire Line
+	3350 1900 3750 1900
+Wire Wire Line
+	4050 1900 4200 1900
+Wire Wire Line
+	4200 1900 4200 2000
+Wire Wire Line
+	5950 1900 6350 1900
+Wire Wire Line
+	6650 1900 6800 1900
+Wire Wire Line
+	6800 1900 6800 2000
+Wire Wire Line
+	8450 1900 8850 1900
+Wire Wire Line
+	9150 1900 9300 1900
+Wire Wire Line
+	9300 1900 9300 2000
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54B1A1
+P 4100 3350
+F 0 "Q?" H 4305 3396 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 4305 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 3275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 3350 50  0001 L CNN
+	1    4100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1A8
+P 3650 3350
+F 0 "R?" V 3443 3350 50  0000 C CNN
+F 1 "100R" V 3534 3350 50  0000 C CNN
+F 2 "" V 3580 3350 50  0001 C CNN
+F 3 "~" H 3650 3350 50  0001 C CNN
+	1    3650 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1AF
+P 3900 3050
+F 0 "R?" V 3693 3050 50  0000 C CNN
+F 1 "100R" V 3784 3050 50  0000 C CNN
+F 2 "" V 3830 3050 50  0001 C CNN
+F 3 "~" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1B6
+P 3900 3600
+F 0 "R?" H 3970 3646 50  0000 L CNN
+F 1 "100K" H 3970 3555 50  0000 L CNN
+F 2 "" V 3830 3600 50  0001 C CNN
+F 3 "~" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3750 3900 3800
+Wire Wire Line
+	3900 3800 4200 3800
+Wire Wire Line
+	4200 3800 4200 3550
+Wire Wire Line
+	3800 3350 3900 3350
+Wire Wire Line
+	3900 3450 3900 3350
+Connection ~ 3900 3350
+Wire Wire Line
+	3900 3350 4000 3350
+Wire Wire Line
+	3350 3350 3500 3350
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54B1C5
+P 4200 3900
+F 0 "#PWR?" H 4200 3650 50  0001 C CNN
+F 1 "GNDS" H 4205 3727 50  0000 C CNN
+F 2 "" H 4200 3900 50  0001 C CNN
+F 3 "" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3900 4200 3800
+Connection ~ 4200 3800
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54B1CD
+P 6700 3350
+F 0 "Q?" H 6905 3396 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 6905 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 3275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6700 3350 50  0001 L CNN
+	1    6700 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1D4
+P 6250 3350
+F 0 "R?" V 6043 3350 50  0000 C CNN
+F 1 "100R" V 6134 3350 50  0000 C CNN
+F 2 "" V 6180 3350 50  0001 C CNN
+F 3 "~" H 6250 3350 50  0001 C CNN
+	1    6250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1DB
+P 6500 3050
+F 0 "R?" V 6293 3050 50  0000 C CNN
+F 1 "20R" V 6384 3050 50  0000 C CNN
+F 2 "" V 6430 3050 50  0001 C CNN
+F 3 "~" H 6500 3050 50  0001 C CNN
+	1    6500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B1E2
+P 6500 3600
+F 0 "R?" H 6570 3646 50  0000 L CNN
+F 1 "100K" H 6570 3555 50  0000 L CNN
+F 2 "" V 6430 3600 50  0001 C CNN
+F 3 "~" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3750 6500 3800
+Wire Wire Line
+	6500 3800 6800 3800
+Wire Wire Line
+	6800 3800 6800 3550
+Wire Wire Line
+	6400 3350 6500 3350
+Wire Wire Line
+	6500 3450 6500 3350
+Connection ~ 6500 3350
+Wire Wire Line
+	6500 3350 6600 3350
+Wire Wire Line
+	5950 3350 6100 3350
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54B1F1
+P 6800 3900
+F 0 "#PWR?" H 6800 3650 50  0001 C CNN
+F 1 "GNDS" H 6805 3727 50  0000 C CNN
+F 2 "" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3900 6800 3800
+Connection ~ 6800 3800
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54B1F9
+P 9200 3350
+F 0 "Q?" H 9405 3396 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 9405 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 3275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9200 3350 50  0001 L CNN
+	1    9200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B200
+P 8750 3350
+F 0 "R?" V 8543 3350 50  0000 C CNN
+F 1 "100R" V 8634 3350 50  0000 C CNN
+F 2 "" V 8680 3350 50  0001 C CNN
+F 3 "~" H 8750 3350 50  0001 C CNN
+	1    8750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B207
+P 9000 3050
+F 0 "R?" V 8793 3050 50  0000 C CNN
+F 1 "33R" V 8884 3050 50  0000 C CNN
+F 2 "" V 8930 3050 50  0001 C CNN
+F 3 "~" H 9000 3050 50  0001 C CNN
+	1    9000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54B20E
+P 9000 3600
+F 0 "R?" H 9070 3646 50  0000 L CNN
+F 1 "100K" H 9070 3555 50  0000 L CNN
+F 2 "" V 8930 3600 50  0001 C CNN
+F 3 "~" H 9000 3600 50  0001 C CNN
+	1    9000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3750 9000 3800
+Wire Wire Line
+	9000 3800 9300 3800
+Wire Wire Line
+	9300 3800 9300 3550
+Wire Wire Line
+	8900 3350 9000 3350
+Wire Wire Line
+	9000 3450 9000 3350
+Connection ~ 9000 3350
+Wire Wire Line
+	9000 3350 9100 3350
+Wire Wire Line
+	8450 3350 8600 3350
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54B21D
+P 9300 3900
+F 0 "#PWR?" H 9300 3650 50  0001 C CNN
+F 1 "GNDS" H 9305 3727 50  0000 C CNN
+F 2 "" H 9300 3900 50  0001 C CNN
+F 3 "" H 9300 3900 50  0001 C CNN
+	1    9300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3900 9300 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	3350 3050 3750 3050
+Wire Wire Line
+	4050 3050 4200 3050
+Wire Wire Line
+	4200 3050 4200 3150
+Wire Wire Line
+	5950 3050 6350 3050
+Wire Wire Line
+	6650 3050 6800 3050
+Wire Wire Line
+	6800 3050 6800 3150
+Wire Wire Line
+	8450 3050 8850 3050
+Wire Wire Line
+	9150 3050 9300 3050
+Wire Wire Line
+	9300 3050 9300 3150
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DD03
+P 4100 4500
+F 0 "Q?" H 4305 4546 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 4305 4455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 4425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 4500 50  0001 L CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD0A
+P 3650 4500
+F 0 "R?" V 3443 4500 50  0000 C CNN
+F 1 "100R" V 3534 4500 50  0000 C CNN
+F 2 "" V 3580 4500 50  0001 C CNN
+F 3 "~" H 3650 4500 50  0001 C CNN
+	1    3650 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD11
+P 3900 4200
+F 0 "R?" V 3693 4200 50  0000 C CNN
+F 1 "100R" V 3784 4200 50  0000 C CNN
+F 2 "" V 3830 4200 50  0001 C CNN
+F 3 "~" H 3900 4200 50  0001 C CNN
+	1    3900 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD18
+P 3900 4750
+F 0 "R?" H 3970 4796 50  0000 L CNN
+F 1 "100K" H 3970 4705 50  0000 L CNN
+F 2 "" V 3830 4750 50  0001 C CNN
+F 3 "~" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4900 3900 4950
+Wire Wire Line
+	3900 4950 4200 4950
+Wire Wire Line
+	4200 4950 4200 4700
+Wire Wire Line
+	3800 4500 3900 4500
+Wire Wire Line
+	3900 4600 3900 4500
+Connection ~ 3900 4500
+Wire Wire Line
+	3900 4500 4000 4500
+Wire Wire Line
+	3350 4500 3500 4500
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DD27
+P 4200 5050
+F 0 "#PWR?" H 4200 4800 50  0001 C CNN
+F 1 "GNDS" H 4205 4877 50  0000 C CNN
+F 2 "" H 4200 5050 50  0001 C CNN
+F 3 "" H 4200 5050 50  0001 C CNN
+	1    4200 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5050 4200 4950
+Connection ~ 4200 4950
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DD2F
+P 6700 4500
+F 0 "Q?" H 6905 4546 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 6905 4455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 4425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6700 4500 50  0001 L CNN
+	1    6700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD36
+P 6250 4500
+F 0 "R?" V 6043 4500 50  0000 C CNN
+F 1 "100R" V 6134 4500 50  0000 C CNN
+F 2 "" V 6180 4500 50  0001 C CNN
+F 3 "~" H 6250 4500 50  0001 C CNN
+	1    6250 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD3D
+P 6500 4200
+F 0 "R?" V 6293 4200 50  0000 C CNN
+F 1 "20R" V 6384 4200 50  0000 C CNN
+F 2 "" V 6430 4200 50  0001 C CNN
+F 3 "~" H 6500 4200 50  0001 C CNN
+	1    6500 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD44
+P 6500 4750
+F 0 "R?" H 6570 4796 50  0000 L CNN
+F 1 "100K" H 6570 4705 50  0000 L CNN
+F 2 "" V 6430 4750 50  0001 C CNN
+F 3 "~" H 6500 4750 50  0001 C CNN
+	1    6500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4900 6500 4950
+Wire Wire Line
+	6500 4950 6800 4950
+Wire Wire Line
+	6800 4950 6800 4700
+Wire Wire Line
+	6400 4500 6500 4500
+Wire Wire Line
+	6500 4600 6500 4500
+Connection ~ 6500 4500
+Wire Wire Line
+	6500 4500 6600 4500
+Wire Wire Line
+	5950 4500 6100 4500
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DD53
+P 6800 5050
+F 0 "#PWR?" H 6800 4800 50  0001 C CNN
+F 1 "GNDS" H 6805 4877 50  0000 C CNN
+F 2 "" H 6800 5050 50  0001 C CNN
+F 3 "" H 6800 5050 50  0001 C CNN
+	1    6800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 5050 6800 4950
+Connection ~ 6800 4950
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DD5B
+P 9200 4500
+F 0 "Q?" H 9405 4546 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 9405 4455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 4425 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9200 4500 50  0001 L CNN
+	1    9200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD62
+P 8750 4500
+F 0 "R?" V 8543 4500 50  0000 C CNN
+F 1 "100R" V 8634 4500 50  0000 C CNN
+F 2 "" V 8680 4500 50  0001 C CNN
+F 3 "~" H 8750 4500 50  0001 C CNN
+	1    8750 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD69
+P 9000 4200
+F 0 "R?" V 8793 4200 50  0000 C CNN
+F 1 "33R" V 8884 4200 50  0000 C CNN
+F 2 "" V 8930 4200 50  0001 C CNN
+F 3 "~" H 9000 4200 50  0001 C CNN
+	1    9000 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD70
+P 9000 4750
+F 0 "R?" H 9070 4796 50  0000 L CNN
+F 1 "100K" H 9070 4705 50  0000 L CNN
+F 2 "" V 8930 4750 50  0001 C CNN
+F 3 "~" H 9000 4750 50  0001 C CNN
+	1    9000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 4900 9000 4950
+Wire Wire Line
+	9000 4950 9300 4950
+Wire Wire Line
+	9300 4950 9300 4700
+Wire Wire Line
+	8900 4500 9000 4500
+Wire Wire Line
+	9000 4600 9000 4500
+Connection ~ 9000 4500
+Wire Wire Line
+	9000 4500 9100 4500
+Wire Wire Line
+	8450 4500 8600 4500
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DD7F
+P 9300 5050
+F 0 "#PWR?" H 9300 4800 50  0001 C CNN
+F 1 "GNDS" H 9305 4877 50  0000 C CNN
+F 2 "" H 9300 5050 50  0001 C CNN
+F 3 "" H 9300 5050 50  0001 C CNN
+	1    9300 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5050 9300 4950
+Connection ~ 9300 4950
+Wire Wire Line
+	3350 4200 3750 4200
+Wire Wire Line
+	4050 4200 4200 4200
+Wire Wire Line
+	4200 4200 4200 4300
+Wire Wire Line
+	5950 4200 6350 4200
+Wire Wire Line
+	6650 4200 6800 4200
+Wire Wire Line
+	6800 4200 6800 4300
+Wire Wire Line
+	8450 4200 8850 4200
+Wire Wire Line
+	9150 4200 9300 4200
+Wire Wire Line
+	9300 4200 9300 4300
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DD90
+P 4100 5650
+F 0 "Q?" H 4305 5696 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 4305 5605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4300 5575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 4100 5650 50  0001 L CNN
+	1    4100 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD97
+P 3650 5650
+F 0 "R?" V 3443 5650 50  0000 C CNN
+F 1 "100R" V 3534 5650 50  0000 C CNN
+F 2 "" V 3580 5650 50  0001 C CNN
+F 3 "~" H 3650 5650 50  0001 C CNN
+	1    3650 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DD9E
+P 3900 5350
+F 0 "R?" V 3693 5350 50  0000 C CNN
+F 1 "100R" V 3784 5350 50  0000 C CNN
+F 2 "" V 3830 5350 50  0001 C CNN
+F 3 "~" H 3900 5350 50  0001 C CNN
+	1    3900 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDA5
+P 3900 5900
+F 0 "R?" H 3970 5946 50  0000 L CNN
+F 1 "100K" H 3970 5855 50  0000 L CNN
+F 2 "" V 3830 5900 50  0001 C CNN
+F 3 "~" H 3900 5900 50  0001 C CNN
+	1    3900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6050 3900 6100
+Wire Wire Line
+	3900 6100 4200 6100
+Wire Wire Line
+	4200 6100 4200 5850
+Wire Wire Line
+	3800 5650 3900 5650
+Wire Wire Line
+	3900 5750 3900 5650
+Connection ~ 3900 5650
+Wire Wire Line
+	3900 5650 4000 5650
+Wire Wire Line
+	3350 5650 3500 5650
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DDB4
+P 4200 6200
+F 0 "#PWR?" H 4200 5950 50  0001 C CNN
+F 1 "GNDS" H 4205 6027 50  0000 C CNN
+F 2 "" H 4200 6200 50  0001 C CNN
+F 3 "" H 4200 6200 50  0001 C CNN
+	1    4200 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 6200 4200 6100
+Connection ~ 4200 6100
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DDBC
+P 6700 5650
+F 0 "Q?" H 6905 5696 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 6905 5605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6900 5575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 6700 5650 50  0001 L CNN
+	1    6700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDC3
+P 6250 5650
+F 0 "R?" V 6043 5650 50  0000 C CNN
+F 1 "100R" V 6134 5650 50  0000 C CNN
+F 2 "" V 6180 5650 50  0001 C CNN
+F 3 "~" H 6250 5650 50  0001 C CNN
+	1    6250 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDCA
+P 6500 5350
+F 0 "R?" V 6293 5350 50  0000 C CNN
+F 1 "20R" V 6384 5350 50  0000 C CNN
+F 2 "" V 6430 5350 50  0001 C CNN
+F 3 "~" H 6500 5350 50  0001 C CNN
+	1    6500 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDD1
+P 6500 5900
+F 0 "R?" H 6570 5946 50  0000 L CNN
+F 1 "100K" H 6570 5855 50  0000 L CNN
+F 2 "" V 6430 5900 50  0001 C CNN
+F 3 "~" H 6500 5900 50  0001 C CNN
+	1    6500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 6050 6500 6100
+Wire Wire Line
+	6500 6100 6800 6100
+Wire Wire Line
+	6800 6100 6800 5850
+Wire Wire Line
+	6400 5650 6500 5650
+Wire Wire Line
+	6500 5750 6500 5650
+Connection ~ 6500 5650
+Wire Wire Line
+	6500 5650 6600 5650
+Wire Wire Line
+	5950 5650 6100 5650
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DDE0
+P 6800 6200
+F 0 "#PWR?" H 6800 5950 50  0001 C CNN
+F 1 "GNDS" H 6805 6027 50  0000 C CNN
+F 2 "" H 6800 6200 50  0001 C CNN
+F 3 "" H 6800 6200 50  0001 C CNN
+	1    6800 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 6200 6800 6100
+Connection ~ 6800 6100
+$Comp
+L Transistor_FET:RUC002N05HZGT116 Q?
+U 1 1 5C54DDE8
+P 9200 5650
+F 0 "Q?" H 9405 5696 50  0000 L CNN
+F 1 "RUC002N05HZGT116" H 9405 5605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9400 5575 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf" H 9200 5650 50  0001 L CNN
+	1    9200 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDEF
+P 8750 5650
+F 0 "R?" V 8543 5650 50  0000 C CNN
+F 1 "100R" V 8634 5650 50  0000 C CNN
+F 2 "" V 8680 5650 50  0001 C CNN
+F 3 "~" H 8750 5650 50  0001 C CNN
+	1    8750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDF6
+P 9000 5350
+F 0 "R?" V 8793 5350 50  0000 C CNN
+F 1 "33R" V 8884 5350 50  0000 C CNN
+F 2 "" V 8930 5350 50  0001 C CNN
+F 3 "~" H 9000 5350 50  0001 C CNN
+	1    9000 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C54DDFD
+P 9000 5900
+F 0 "R?" H 9070 5946 50  0000 L CNN
+F 1 "100K" H 9070 5855 50  0000 L CNN
+F 2 "" V 8930 5900 50  0001 C CNN
+F 3 "~" H 9000 5900 50  0001 C CNN
+	1    9000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 6050 9000 6100
+Wire Wire Line
+	9000 6100 9300 6100
+Wire Wire Line
+	9300 6100 9300 5850
+Wire Wire Line
+	8900 5650 9000 5650
+Wire Wire Line
+	9000 5750 9000 5650
+Connection ~ 9000 5650
+Wire Wire Line
+	9000 5650 9100 5650
+Wire Wire Line
+	8450 5650 8600 5650
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C54DE0C
+P 9300 6200
+F 0 "#PWR?" H 9300 5950 50  0001 C CNN
+F 1 "GNDS" H 9305 6027 50  0000 C CNN
+F 2 "" H 9300 6200 50  0001 C CNN
+F 3 "" H 9300 6200 50  0001 C CNN
+	1    9300 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6200 9300 6100
+Connection ~ 9300 6100
+Wire Wire Line
+	3350 5350 3750 5350
+Wire Wire Line
+	4050 5350 4200 5350
+Wire Wire Line
+	4200 5350 4200 5450
+Wire Wire Line
+	5950 5350 6350 5350
+Wire Wire Line
+	6650 5350 6800 5350
+Wire Wire Line
+	6800 5350 6800 5450
+Wire Wire Line
+	8450 5350 8850 5350
+Wire Wire Line
+	9150 5350 9300 5350
+Wire Wire Line
+	9300 5350 9300 5450
+Text HLabel 3350 750  0    50   Input ~ 0
+LED_1R
+Text HLabel 3350 1900 0    50   Input ~ 0
+LED_2R
+Text HLabel 3350 3050 0    50   Input ~ 0
+LED_3R
+Text HLabel 3350 4200 0    50   Input ~ 0
+LED_4R
+Text HLabel 3350 5350 0    50   Input ~ 0
+LED_5R
+Text HLabel 5950 750  0    50   Input ~ 0
+LED_1B
+Text HLabel 5950 1900 0    50   Input ~ 0
+LED_2B
+Text HLabel 5950 3050 0    50   Input ~ 0
+LED_3B
+Text HLabel 5950 4200 0    50   Input ~ 0
+LED_4B
+Text HLabel 5950 5350 0    50   Input ~ 0
+LED_5B
+Text HLabel 8450 750  0    50   Input ~ 0
+LED_1G
+Text HLabel 8450 1900 0    50   Input ~ 0
+LED_2G
+Text HLabel 8450 3050 0    50   Input ~ 0
+LED_3G
+Text HLabel 8450 4200 0    50   Input ~ 0
+LED_4G
+Text HLabel 8450 5350 0    50   Input ~ 0
+LED_5G
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C569509
+P 4200 6800
+F 0 "#PWR?" H 4200 6550 50  0001 C CNN
+F 1 "GNDS" H 4205 6627 50  0000 C CNN
+F 2 "" H 4200 6800 50  0001 C CNN
+F 3 "" H 4200 6800 50  0001 C CNN
+	1    4200 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6600 4200 6600
+Wire Wire Line
+	4200 6600 4200 6800
+Text HLabel 3350 6600 0    50   Input ~ 0
+SGND
+Entry Wire Line
+	1650 2950 1750 3050
+Entry Wire Line
+	1650 2850 1750 2950
+Entry Wire Line
+	1650 2750 1750 2850
+Entry Wire Line
+	1650 2650 1750 2750
+Entry Wire Line
+	1650 2550 1750 2650
+Entry Wire Line
+	1650 2450 1750 2550
+Entry Wire Line
+	1650 2350 1750 2450
+Entry Wire Line
+	1650 2250 1750 2350
+Entry Wire Line
+	1650 2150 1750 2250
+Entry Wire Line
+	1650 2050 1750 2150
+Entry Wire Line
+	1650 1950 1750 2050
+Entry Wire Line
+	1650 1850 1750 1950
+Entry Wire Line
+	1650 1750 1750 1850
+Entry Wire Line
+	1650 1650 1750 1750
+Wire Bus Line
+	1450 1400 1650 1400
+Entry Wire Line
+	1650 1550 1750 1650
+Wire Wire Line
+	1850 3050 1750 3050
+Wire Wire Line
+	1850 2950 1750 2950
+Wire Wire Line
+	1850 2850 1750 2850
+Wire Wire Line
+	1850 2750 1750 2750
+Wire Wire Line
+	1850 2650 1750 2650
+Wire Wire Line
+	1850 2550 1750 2550
+Wire Wire Line
+	1850 2450 1750 2450
+Wire Wire Line
+	1850 2350 1750 2350
+Wire Wire Line
+	1850 2250 1750 2250
+Wire Wire Line
+	1850 2150 1750 2150
+Wire Wire Line
+	1850 2050 1750 2050
+Wire Wire Line
+	1850 1950 1750 1950
+Wire Wire Line
+	1850 1850 1750 1850
+Wire Wire Line
+	1850 1750 1750 1750
+Wire Wire Line
+	1850 1650 1750 1650
+Wire Bus Line
+	1650 1400 1650 2950
+Text GLabel 1850 1650 2    50   Input ~ 0
+LED0
+Text GLabel 1850 1750 2    50   Input ~ 0
+LED1
+Text GLabel 1850 1850 2    50   Input ~ 0
+LED2
+Text GLabel 1850 1950 2    50   Input ~ 0
+LED3
+Text GLabel 1850 2050 2    50   Input ~ 0
+LED4
+Text GLabel 1850 2150 2    50   Input ~ 0
+LED5
+Text GLabel 1850 2250 2    50   Input ~ 0
+LED6
+Text GLabel 1850 2350 2    50   Input ~ 0
+LED7
+Text GLabel 1850 2450 2    50   Input ~ 0
+LED8
+Text GLabel 1850 2550 2    50   Input ~ 0
+LED9
+Text GLabel 1850 2650 2    50   Input ~ 0
+LED10
+Text GLabel 1850 2750 2    50   Input ~ 0
+LED11
+Text GLabel 1850 2850 2    50   Input ~ 0
+LED12
+Text GLabel 1850 2950 2    50   Input ~ 0
+LED13
+Text GLabel 1850 3050 2    50   Input ~ 0
+LED14
+Text HLabel 1450 1400 0    50   Input ~ 0
+LED0..14
+Text GLabel 3350 1050 0    50   Input ~ 0
+LED0
+Text GLabel 3350 2200 0    50   Input ~ 0
+LED1
+Text GLabel 3350 3350 0    50   Input ~ 0
+LED2
+Text GLabel 3350 4500 0    50   Input ~ 0
+LED3
+Text GLabel 3350 5650 0    50   Input ~ 0
+LED4
+Text GLabel 5950 1050 0    50   Input ~ 0
+LED5
+Text GLabel 5950 2200 0    50   Input ~ 0
+LED6
+Text GLabel 5950 3350 0    50   Input ~ 0
+LED7
+Text GLabel 5950 4500 0    50   Input ~ 0
+LED8
+Text GLabel 5950 5650 0    50   Input ~ 0
+LED9
+Text GLabel 8450 1050 0    50   Input ~ 0
+LED10
+Text GLabel 8450 2200 0    50   Input ~ 0
+LED11
+Text GLabel 8450 3350 0    50   Input ~ 0
+LED12
+Text GLabel 8450 4500 0    50   Input ~ 0
+LED13
+Text GLabel 8450 5650 0    50   Input ~ 0
+LED14
+$EndSCHEMATC

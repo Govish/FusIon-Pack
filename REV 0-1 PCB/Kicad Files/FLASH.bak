@@ -1,0 +1,156 @@
+EESchema Schematic File Version 4
+LIBS:FusIon Pack-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_Flash:W25Q16JVSSIQ U6
+U 1 1 5CC0741A
+P 5800 4150
+F 0 "U6" H 5800 4565 50  0000 C CNN
+F 1 "W25Q16JVSSIQ" H 5800 4474 50  0000 C CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5800 4150 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q16jv%20spi%20revg%2003222018%20plus.pdf" H 5800 4150 50  0001 C CNN
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4000 5450 4000
+Wire Wire Line
+	5100 4100 5450 4100
+Wire Wire Line
+	5100 4200 5450 4200
+Wire Wire Line
+	6700 3500 6700 3650
+Wire Wire Line
+	6700 4000 6250 4000
+Wire Wire Line
+	6700 4500 6700 4300
+Wire Wire Line
+	6700 4300 6150 4300
+Wire Wire Line
+	6150 4200 6250 4200
+Wire Wire Line
+	6250 4200 6250 4100
+Connection ~ 6250 4000
+Wire Wire Line
+	6250 4000 6150 4000
+Wire Wire Line
+	6150 4100 6250 4100
+Connection ~ 6250 4100
+Wire Wire Line
+	6250 4100 6250 4000
+$Comp
+L Device:C C49
+U 1 1 5CC078D4
+P 6700 4150
+F 0 "C49" H 6815 4196 50  0000 L CNN
+F 1 "100n" H 6815 4105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6738 4000 50  0001 C CNN
+F 3 "~" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6700 4000
+Connection ~ 6700 4300
+$Comp
+L Device:R R80
+U 1 1 5CC07C44
+P 6350 3650
+F 0 "R80" V 6450 3550 50  0000 L CNN
+F 1 "10K" V 6250 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 3650 50  0001 C CNN
+F 3 "~" H 6350 3650 50  0001 C CNN
+	1    6350 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 4300 5400 4300
+Wire Wire Line
+	6500 3650 6700 3650
+Connection ~ 6700 3650
+Wire Wire Line
+	6700 3650 6700 4000
+Wire Wire Line
+	6200 3650 5400 3650
+Wire Wire Line
+	5400 3650 5400 4300
+Connection ~ 5400 4300
+Wire Wire Line
+	5400 4300 5450 4300
+$Comp
+L power:+3.3V #PWR074
+U 1 1 5CC081DC
+P 6700 3500
+F 0 "#PWR074" H 6700 3350 50  0001 C CNN
+F 1 "+3.3V" H 6715 3673 50  0000 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR075
+U 1 1 5CC0824A
+P 6700 4500
+F 0 "#PWR075" H 6700 4250 50  0001 C CNN
+F 1 "GNDS" H 6705 4327 50  0000 C CNN
+F 2 "" H 6700 4500 50  0001 C CNN
+F 3 "" H 6700 4500 50  0001 C CNN
+	1    6700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR073
+U 1 1 5CC0826E
+P 5250 4500
+F 0 "#PWR073" H 5250 4250 50  0001 C CNN
+F 1 "GNDS" H 5255 4327 50  0000 C CNN
+F 2 "" H 5250 4500 50  0001 C CNN
+F 3 "" H 5250 4500 50  0001 C CNN
+	1    5250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR072
+U 1 1 5CC0828B
+P 5250 3650
+F 0 "#PWR072" H 5250 3500 50  0001 C CNN
+F 1 "+3.3V" H 5265 3823 50  0000 C CNN
+F 2 "" H 5250 3650 50  0001 C CNN
+F 3 "" H 5250 3650 50  0001 C CNN
+	1    5250 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4400 5250 4400
+Wire Wire Line
+	5250 4400 5250 4500
+Wire Wire Line
+	5100 3900 5250 3900
+Wire Wire Line
+	5250 3900 5250 3650
+Text HLabel 5100 3900 0    50   Input ~ 0
++3.3V
+Text HLabel 5100 4000 0    50   Input ~ 0
+MOSI
+Text HLabel 5100 4100 0    50   Input ~ 0
+MISO
+Text HLabel 5100 4200 0    50   Input ~ 0
+SCK
+Text HLabel 5100 4300 0    50   Input ~ 0
+CS
+Text HLabel 5100 4400 0    50   Input ~ 0
+SGND
+$EndSCHEMATC

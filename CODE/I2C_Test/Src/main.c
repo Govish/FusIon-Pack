@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "pca9685.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -91,19 +91,18 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  uint8_t mode1[2] = {0x00, 0x00};
-  uint8_t mode2[2] = {0x01, 0x12};
-  uint8_t led0[2] = {0x09, 0x00};
-  uint8_t led1[2] = {0x07, 0x10};
 
-  HAL_I2C_Master_Transmit(&hi2c1, 0x80, mode1, sizeof(mode1), 1); //set mode1
-  HAL_I2C_Master_Transmit(&hi2c1, 0x80, mode2, sizeof(mode2), 1); //set mode2
-  HAL_I2C_Master_Transmit(&hi2c1, 0x80, led0, sizeof(led0), 1); //set led
-  HAL_I2C_Master_Transmit(&hi2c1, 0x80, led1, sizeof(led1), 1); //set led
+  pca_wake(&hi2c1);
 
-
+  HAL_Delay(1000);
+  pca_init(&hi2c1);
+  pca_off(&hi2c1);
   HAL_GPIO_WritePin(LED0_GPIO_Port, LED0_Pin, GPIO_PIN_SET);
+
+  HAL_Delay(1000);
+  pca_write_color(&hi2c1, 0, WHITE);
   HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -111,7 +110,16 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  for(int i = 0; i < 5; i++) {
+		  pca_off(&hi2c1);
+		  pca_write_color(&hi2c1, i, GREEN);
+		  HAL_Delay(100);
+	  }
+	  for(int i = 4; i >= 0; i--) {
+	  	  pca_off(&hi2c1);
+	  	  pca_write_color(&hi2c1, i, GREEN);
+	  	  HAL_Delay(100);
+	  }
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

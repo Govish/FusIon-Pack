@@ -109,17 +109,56 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  RGB cDrive = {0, 0, 4096};
     /* USER CODE END WHILE */
-	  for(int i = 0; i < 5; i++) {
-		  pca_off(&hi2c1);
-		  pca_write_color(&hi2c1, i, GREEN);
-		  HAL_Delay(100);
+	  for(int i = 0; i < 4097; i+=16) {
+		  cDrive.r = i;
+		  for (uint8_t j = 0; j < 5; j++) {
+			  pca_write_color(&hi2c1, j, cDrive);
+			  HAL_Delay(1);
+		  }
 	  }
-	  for(int i = 4; i >= 0; i--) {
-	  	  pca_off(&hi2c1);
-	  	  pca_write_color(&hi2c1, i, GREEN);
-	  	  HAL_Delay(100);
+
+	  for(int i = 4096; i >= 0; i-=16) {
+	  	  cDrive.b = i;
+	  	  for (uint8_t j = 0; j < 5; j++) {
+	  		  pca_write_color(&hi2c1, j, cDrive);
+	  		  HAL_Delay(1);
+	  	  }
 	  }
+
+	  for(int i = 0; i < 4097; i+=16) {
+		  cDrive.g = i;
+  		  for (uint8_t j = 0; j < 5; j++) {
+  			  pca_write_color(&hi2c1, j, cDrive);
+  			  HAL_Delay(1);
+  		  }
+  	  }
+
+  	  for(int i = 4096; i >= 0; i-=16) {
+  	  	  cDrive.r = i;
+  	  	  for (uint8_t j = 0; j < 5; j++) {
+  	  		  pca_write_color(&hi2c1, j, cDrive);
+  	  		  HAL_Delay(1);
+  	  	  }
+  	  }
+
+  	for(int i = 0; i < 4097; i+=16) {
+		  cDrive.b = i;
+  		  for (uint8_t j = 0; j < 5; j++) {
+  			  pca_write_color(&hi2c1, j, cDrive);
+  			  HAL_Delay(1);
+  		  }
+  	  }
+
+  	  for(int i = 4096; i >= 0; i-=16) {
+  	  	  cDrive.g = i;
+  	  	  for (uint8_t j = 0; j < 5; j++) {
+  	  		  pca_write_color(&hi2c1, j, cDrive);
+  	  		  HAL_Delay(1);
+  	  	  }
+  	  }
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

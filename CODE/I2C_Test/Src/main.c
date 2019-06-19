@@ -24,6 +24,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "pca9685.h"
+#include "AFE.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/

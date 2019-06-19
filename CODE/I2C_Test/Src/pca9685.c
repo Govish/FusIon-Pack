@@ -165,7 +165,7 @@ static void pca_write_channel(I2C_HandleTypeDef *hi2c, uint8_t channel, uint16_t
 }
 
 static void i2c_send(I2C_HandleTypeDef *hi2c, uint8_t *data, uint16_t size) {
-	HAL_I2C_Master_Transmit(hi2c, PCA_ADDRESS, data, size, 1);
+	HAL_I2C_Master_Transmit(hi2c, PCA_ADDRESS, data, size, (uint32_t)(5*size));
 }
 
 static void i2c_receive(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t *data, uint16_t size) {
@@ -173,7 +173,7 @@ static void i2c_receive(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t *data, uin
 	tx[0] = reg;
 	i2c_send(hi2c, tx, sizeof(tx));
 	//data array should now contain value received from transmission
-	HAL_I2C_Master_Transmit(hi2c, PCA_ADDRESS, data, size, 1);
+	HAL_I2C_Master_Transmit(hi2c, PCA_ADDRESS, data, size, (uint32_t)(5*size));
 }
 
 

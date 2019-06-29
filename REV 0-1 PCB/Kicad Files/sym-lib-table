@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FusIon-Pack-rescue)(type Legacy)(uri "${KIPRJMOD}/FusIon Pack-rescue.lib")(options "")(descr ""))
+)

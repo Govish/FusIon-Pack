@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:Buck Converter SubBoard 0-2-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Switching:LMR16006 U1
+L Buck-Converter-SubBoard-0-2-rescue:LMR16006-Regulator_Switching U1
 U 1 1 5D08876D
 P 4250 3900
 F 0 "U1" H 4250 4265 50  0000 C CNN
@@ -461,7 +462,7 @@ U 1 1 5D0A7C08
 P 6950 3500
 F 0 "D4" H 6950 3716 50  0000 C CNN
 F 1 "1N4448" H 6950 3625 50  0000 C CNN
-F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 3500 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6950 3500 50  0001 C CNN
 F 3 "~" H 6950 3500 50  0001 C CNN
 	1    6950 3500
 	1    0    0    -1  

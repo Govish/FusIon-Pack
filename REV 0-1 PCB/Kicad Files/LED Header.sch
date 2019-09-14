@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,7 +26,7 @@ F 3 "~" H 6000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q17
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q17
 U 1 1 5CC0E04D
 P 5600 5200
 F 0 "Q17" H 5805 5246 50  0000 L CNN

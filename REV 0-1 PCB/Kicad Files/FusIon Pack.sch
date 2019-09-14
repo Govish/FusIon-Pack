@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -631,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 5700 5550 5700
 $Comp
-L Device:Battery_Cell_Short BT10
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT10
 U 1 1 5C860E0C
 P 1650 5300
 F 0 "BT10" H 1768 5396 50  0000 L CNN
@@ -642,7 +642,7 @@ F 3 "~" V 1650 5360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT9
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT9
 U 1 1 5C860F33
 P 1650 5000
 F 0 "BT9" H 1768 5096 50  0000 L CNN
@@ -653,7 +653,7 @@ F 3 "~" V 1650 5060 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT8
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT8
 U 1 1 5C860F74
 P 1650 4700
 F 0 "BT8" H 1768 4796 50  0000 L CNN
@@ -664,7 +664,7 @@ F 3 "~" V 1650 4760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT7
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT7
 U 1 1 5C860F9E
 P 1650 4400
 F 0 "BT7" H 1768 4496 50  0000 L CNN
@@ -675,7 +675,7 @@ F 3 "~" V 1650 4460 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT6
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT6
 U 1 1 5C860FC8
 P 1650 4100
 F 0 "BT6" H 1768 4196 50  0000 L CNN
@@ -686,7 +686,7 @@ F 3 "~" V 1650 4160 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT5
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT5
 U 1 1 5C860FF4
 P 1650 3800
 F 0 "BT5" H 1768 3896 50  0000 L CNN
@@ -697,7 +697,7 @@ F 3 "~" V 1650 3860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT4
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT4
 U 1 1 5C86101E
 P 1650 3500
 F 0 "BT4" H 1768 3596 50  0000 L CNN
@@ -708,7 +708,7 @@ F 3 "~" V 1650 3560 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT3
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT3
 U 1 1 5C86104E
 P 1650 3200
 F 0 "BT3" H 1768 3296 50  0000 L CNN
@@ -719,7 +719,7 @@ F 3 "~" V 1650 3260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT2
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT2
 U 1 1 5C8610C4
 P 1650 2900
 F 0 "BT2" H 1768 2996 50  0000 L CNN
@@ -730,7 +730,7 @@ F 3 "~" V 1650 2960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery_Cell_Short BT1
+L FusIon-Pack-rescue:Battery_Cell_Short-Device BT1
 U 1 1 5C8610F4
 P 1650 2600
 F 0 "BT1" H 1768 2696 50  0000 L CNN
@@ -1343,7 +1343,7 @@ Connection ~ 3650 5500
 Wire Wire Line
 	3650 5500 5550 5500
 $Comp
-L Graphic:Fiducial F2
+L FusIon-Pack-rescue:Fiducial-Graphic F2
 U 1 1 5C71EC06
 P 1400 1150
 F 0 "F2" H 1200 1150 50  0000 L CNN
@@ -1354,7 +1354,7 @@ F 3 "" H 1400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Fiducial F3
+L FusIon-Pack-rescue:Fiducial-Graphic F3
 U 1 1 5C71F01E
 P 1400 1300
 F 0 "F3" H 1200 1300 50  0000 L CNN
@@ -1365,7 +1365,7 @@ F 3 "" H 1400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Fiducial F4
+L FusIon-Pack-rescue:Fiducial-Graphic F4
 U 1 1 5C71F068
 P 1400 1450
 F 0 "F4" H 1200 1450 50  0000 L CNN
@@ -1376,7 +1376,7 @@ F 3 "" H 1400 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:Fiducial F5
+L FusIon-Pack-rescue:Fiducial-Graphic F5
 U 1 1 5C71F0B2
 P 1400 1600
 F 0 "F5" H 1200 1600 50  0000 L CNN

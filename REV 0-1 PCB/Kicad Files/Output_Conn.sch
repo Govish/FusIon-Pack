@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:XT60 J5
+L FusIon-Pack-rescue:XT60-Connector J5
 U 1 1 5C4C66F7
 P 5650 3800
 F 0 "J5" V 5604 3672 50  0000 R CNN

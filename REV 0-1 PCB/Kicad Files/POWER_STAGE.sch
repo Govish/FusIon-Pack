@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Driver_FET:BQ76200 U10
+L FusIon-Pack-rescue:BQ76200-Driver_FET U10
 U 1 1 5D368A56
 P 4300 5650
 F 0 "U10" H 4300 6465 50  0000 C CNN
@@ -78,7 +78,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 6250 5050 6400
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q24
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q24
 U 1 1 5D3690F4
 P 6150 2300
 F 0 "Q24" V 6150 2100 50  0000 C CNN
@@ -89,7 +89,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q25
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q25
 U 1 1 5D3691AA
 P 6150 2800
 F 0 "Q25" V 6150 2600 50  0000 C CNN
@@ -100,7 +100,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q26
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q26
 U 1 1 5D369493
 P 6150 3300
 F 0 "Q26" V 6150 3100 50  0000 C CNN
@@ -111,7 +111,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q27
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q27
 U 1 1 5D3694BB
 P 6150 3800
 F 0 "Q27" V 6150 3600 50  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q28
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q28
 U 1 1 5D3694EF
 P 6150 4300
 F 0 "Q28" V 6150 4100 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q29
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q29
 U 1 1 5D369553
 P 7700 2300
 F 0 "Q29" V 7700 2500 50  0000 C CNN
@@ -144,7 +144,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q30
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q30
 U 1 1 5D369799
 P 7700 2800
 F 0 "Q30" V 7700 3000 50  0000 C CNN
@@ -155,7 +155,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q31
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q31
 U 1 1 5D369809
 P 7700 3300
 F 0 "Q31" V 7700 3500 50  0000 C CNN
@@ -166,7 +166,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q32
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q32
 U 1 1 5D369843
 P 7700 3800
 F 0 "Q32" V 7700 4000 50  0000 C CNN
@@ -177,7 +177,7 @@ F 3 "https://www.infineon.com/dgdl/Infineon-IPD60N10S4L_12-DS-v01_00-en.pdf?file
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q33
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q33
 U 1 1 5D369877
 P 7700 4300
 F 0 "Q33" V 7700 4500 50  0000 C CNN
@@ -656,7 +656,7 @@ Wire Wire Line
 	9150 1550 9000 1550
 Connection ~ 9000 1550
 $Comp
-L Transistor_FET:FQT5P10TF Q34
+L FusIon-Pack-rescue:FQT5P10TF-Transistor_FET Q34
 U 1 1 5D4040D7
 P 7800 1650
 F 0 "Q34" V 8143 1650 50  0000 C CNN

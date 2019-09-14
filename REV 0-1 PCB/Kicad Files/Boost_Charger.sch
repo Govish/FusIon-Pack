@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Controller:LTC3783 U8
+L FusIon-Pack-rescue:LTC3783-Regulator_Controller U8
 U 1 1 5CD3D89B
 P 4750 4300
 F 0 "U8" H 4800 4965 50  0000 C CNN
@@ -65,7 +65,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 4600 5700 4800
 $Comp
-L Transistor_FET:IPD60N10S4L-12 Q20
+L FusIon-Pack-rescue:IPD60N10S4L-12-Transistor_FET Q20
 U 1 1 5C4D1E56
 P 6050 4000
 F 0 "Q20" H 6255 4046 50  0000 L CNN
@@ -172,7 +172,7 @@ Wire Wire Line
 Text HLabel 3350 4400 0    50   Input ~ 0
 I_SET
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q21
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q21
 U 1 1 5C5090B8
 P 8550 4700
 F 0 "Q21" H 8755 4746 50  0000 L CNN
@@ -530,7 +530,7 @@ Wire Wire Line
 	2850 5000 2850 4100
 Connection ~ 2850 4100
 $Comp
-L Transistor_FET:IRF5210 Q19
+L FusIon-Pack-rescue:IRF5210-Transistor_FET Q19
 U 1 1 5C553EA6
 P 2600 3450
 F 0 "Q19" V 2500 3350 50  0000 C CNN
@@ -570,7 +570,7 @@ Connection ~ 2350 3350
 Wire Wire Line
 	2600 3700 2600 3650
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q18
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q18
 U 1 1 5C569DD3
 P 2250 4550
 F 0 "Q18" H 2455 4596 50  0000 L CNN
@@ -720,7 +720,7 @@ Wire Wire Line
 Text HLabel 9750 3150 2    50   Input ~ 0
 BOOST_OUT
 $Comp
-L Amplifier_Current:ZXCT108x U7
+L FusIon-Pack-rescue:ZXCT108x-Amplifier_Current U7
 U 1 1 5C6744E0
 P 3900 2100
 F 0 "U7" H 3900 2515 50  0000 C CNN
@@ -731,7 +731,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ZXCT1082_87.pdf" H 3900 2100 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Current:ZXCT108x U9
+L FusIon-Pack-rescue:ZXCT108x-Amplifier_Current U9
 U 1 1 5C674814
 P 8200 2100
 F 0 "U9" H 8200 2515 50  0000 C CNN
@@ -1555,7 +1555,7 @@ Wire Wire Line
 	5450 2750 5450 3200
 Connection ~ 5300 2750
 $Comp
-L Transistor_FET:IRF5210 Q23
+L FusIon-Pack-rescue:IRF5210-Transistor_FET Q23
 U 1 1 5C7A80D0
 P 9400 3250
 F 0 "Q23" V 9350 3400 50  0000 C CNN
@@ -1566,7 +1566,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMPH6050SK3.pdf" H 9400 3250 50  0
 	0    1    -1   0   
 $EndComp
 $Comp
-L Transistor_FET:IRF5210 Q22
+L FusIon-Pack-rescue:IRF5210-Transistor_FET Q22
 U 1 1 5C7A8572
 P 8650 3250
 F 0 "Q22" V 8600 3100 50  0000 C CNN

@@ -48,7 +48,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/PACDN042-D.PDF" H 3000 3250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L FusIon~Pack-cache:Interface_CAN_LIN_ATA6561 U2
+L Interface_CAN_LIN:ATA6561 U2
 U 1 1 5D13DB2C
 P 3700 6200
 F 0 "U2" H 3700 6715 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 3650 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FusIon~Pack-cache:Memory_Flash_W25Q16JVSSIQ U1
+L Memory_Flash:W25Q16JVSSIQ U1
 U 1 1 5D13EEE8
 P 3650 5050
 F 0 "U1" H 3650 5465 50  0000 C CNN
@@ -979,7 +979,7 @@ L Device:R R12
 U 1 1 5D29FF04
 P 3550 1550
 F 0 "R12" V 3650 1600 50  0000 L CNN
-F 1 "120R" V 3650 1400 50  0000 L CNN
+F 1 "100R" V 3650 1400 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 1550 50  0001 C CNN
 F 3 "~" H 3550 1550 50  0001 C CNN
 	1    3550 1550

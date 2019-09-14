@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_FET:FQT5P10TF Q16
+L FusIon-Pack-rescue:FQT5P10TF-Transistor_FET Q16
 U 1 1 5CBD378D
 P 4200 3300
 F 0 "Q16" H 4406 3254 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FQT5P10-D.pdf" H 4200 3300 50  0001 L
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q15
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q15
 U 1 1 5CBD38B9
 P 3800 4300
 F 0 "Q15" H 3650 4600 50  0000 L CNN

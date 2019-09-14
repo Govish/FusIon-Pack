@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -391,7 +391,7 @@ Connection ~ 3700 2900
 Text GLabel 3200 2900 0    50   Input ~ 0
 POWER_BUTT
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q13
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q13
 U 1 1 5C765FBE
 P 3200 3350
 F 0 "Q13" H 3405 3396 50  0000 L CNN
@@ -913,7 +913,7 @@ nRST
 Text GLabel 1800 2100 2    50   Input ~ 0
 nRST
 $Comp
-L Transistor_FET:RUC002N05HZGT116 Q14
+L FusIon-Pack-rescue:RUC002N05HZGT116-Transistor_FET Q14
 U 1 1 5C97D383
 P 3200 4300
 F 0 "Q14" H 3405 4346 50  0000 L CNN

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Memory_Flash:W25Q16JVSSIQ U6
+L FusIon-Pack-rescue:W25Q16JVSSIQ-Memory_Flash U6
 U 1 1 5CC0741A
 P 5800 4150
 F 0 "U6" H 5800 4565 50  0000 C CNN

@@ -48,7 +48,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/PACDN042-D.PDF" H 3000 3250 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L FusIon~Pack-cache:Interface_CAN_LIN_ATA6561 U2
+L Interface_CAN_LIN:ATA6561 U2
 U 1 1 5D13DB2C
 P 3700 6200
 F 0 "U2" H 3700 6715 50  0000 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 3650 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FusIon~Pack-cache:Memory_Flash_W25Q16JVSSIQ U1
+L Memory_Flash:W25Q16JVSSIQ U1
 U 1 1 5D13EEE8
 P 3650 5050
 F 0 "U1" H 3650 5465 50  0000 C CNN
@@ -1019,4 +1019,12 @@ Text Label 2550 6450 0    50   ~ 0
 RXD
 Text Label 2550 6550 0    50   ~ 0
 STBY
+Text Label 9250 3800 0    50   ~ 0
+V_BUT
+Text Label 9250 3900 0    50   ~ 0
+LED+
+Text Label 9250 4000 0    50   ~ 0
+LED-
+Text Label 9250 4100 0    50   ~ 0
+BUTT
 $EndSCHEMATC

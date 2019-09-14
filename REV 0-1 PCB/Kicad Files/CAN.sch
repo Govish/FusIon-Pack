@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:FusIon Pack-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_CAN_LIN:ATA6561 U5
+L FusIon-Pack-rescue:ATA6561-Interface_CAN_LIN U5
 U 1 1 5CBFEB3E
 P 5600 4150
 F 0 "U5" H 5600 4665 50  0000 C CNN

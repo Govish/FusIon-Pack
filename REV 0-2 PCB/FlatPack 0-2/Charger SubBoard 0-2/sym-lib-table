@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Charger-SubBoard-0-2-rescue)(type Legacy)(uri "${KIPRJMOD}/Charger SubBoard 0-2-rescue.lib")(options "")(descr ""))
+)

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Charger SubBoard 0-2-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Charger-SubBoard-0-2-rescue:LTC3783-Regulator_Controller U2
+L Regulator_Controller:LTC3783 U2
 U 1 1 5D1E970E
 P 5700 4550
 F 0 "U2" H 5450 3700 50  0000 C CNN
@@ -117,7 +117,7 @@ Connection ~ 5600 3350
 Wire Wire Line
 	5600 3350 6000 3350
 $Comp
-L Charger-SubBoard-0-2-rescue:TK7S10N1Z-Transistor_FET Q3
+L Transistor_FET:TK7S10N1Z Q3
 U 1 1 5D1F1AA8
 P 6750 4250
 F 0 "Q3" H 6956 4296 50  0000 L CNN
@@ -326,7 +326,7 @@ F 3 "~" H 3400 3350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Charger-SubBoard-0-2-rescue:SQJ479EP-Transistor_FET Q2
+L Transistor_FET:SQJ479EP Q2
 U 1 1 5D20817E
 P 3600 3700
 F 0 "Q2" V 3850 3700 50  0000 C CNN
@@ -337,7 +337,7 @@ F 3 "http://www.vishay.com/docs/75129/sqj479ep.pdf" H 3600 3700 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Charger-SubBoard-0-2-rescue:SQJ479EP-Transistor_FET Q5
+L Transistor_FET:SQJ479EP Q5
 U 1 1 5D208DC2
 P 8850 3450
 F 0 "Q5" V 9193 3450 50  0000 C CNN
@@ -494,7 +494,7 @@ Wire Wire Line
 	3600 4000 3600 4050
 Connection ~ 3600 4000
 $Comp
-L Charger-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q1
+L Transistor_FET:RUC002N05HZGT116 Q1
 U 1 1 5D22C1A4
 P 3500 4600
 F 0 "Q1" H 3700 4550 50  0000 L CNN
@@ -505,7 +505,7 @@ F 3 "" H 3500 4600 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Charger-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q4
+L Transistor_FET:RUC002N05HZGT116 Q4
 U 1 1 5D22E439
 P 8750 4950
 F 0 "Q4" H 8956 4996 50  0000 L CNN
@@ -769,7 +769,7 @@ Connection ~ 6550 3800
 Wire Wire Line
 	6550 3800 7750 3800
 $Comp
-L Charger-SubBoard-0-2-rescue:INA180B-Amplifier_Current U1
+L Amplifier_Current:INA180B U1
 U 1 1 5D3FF04F
 P 4200 2250
 F 0 "U1" H 4200 2590 50  0000 C CNN

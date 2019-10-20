@@ -1029,6 +1029,4 @@ Text Label 9250 4100 0    50   ~ 0
 BUTT
 Text Notes 3550 4600 0    50   ~ 0
 complete   a m a t e u r    h o u r\nfix in next rev
-Wire Notes Line
-	3900 4650 4000 4850
 $EndSCHEMATC

@@ -1462,4 +1462,8 @@ F 3 "~" H 6600 4900 50  0001 C CNN
 $EndComp
 Text Label 6100 4900 0    50   ~ 0
 RESET
+Text Label 4400 4100 0    50   ~ 0
+CC1
+Text Label 4400 4200 0    50   ~ 0
+CC2
 $EndSCHEMATC

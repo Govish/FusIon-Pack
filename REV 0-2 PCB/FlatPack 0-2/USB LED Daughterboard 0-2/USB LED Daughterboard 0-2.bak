@@ -375,10 +375,10 @@ Wire Wire Line
 Wire Wire Line
 	8950 4900 8800 4900
 $Comp
-L Connector:TestPoint_Probe TP7
+L Connector:TestPoint_Probe TP8
 U 1 1 5DB4DD6E
 P 9900 6100
-F 0 "TP7" H 10053 6155 50  0000 L CNN
+F 0 "TP8" H 10053 6155 50  0000 L CNN
 F 1 "TestPoint_Probe" H 10053 6110 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10100 6100 50  0001 C CNN
 F 3 "~" H 10100 6100 50  0001 C CNN
@@ -1439,10 +1439,10 @@ Wire Notes Line
 Wire Notes Line
 	6050 6100 6050 7300
 $Comp
-L Connector:TestPoint_Probe TP6
+L Connector:TestPoint_Probe TP7
 U 1 1 5DAD656A
 P 6400 4900
-F 0 "TP6" H 6553 4955 50  0000 L CNN
+F 0 "TP7" H 6553 4955 50  0000 L CNN
 F 1 "TestPoint_Probe" H 6553 4910 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6600 4900 50  0001 C CNN
 F 3 "~" H 6600 4900 50  0001 C CNN

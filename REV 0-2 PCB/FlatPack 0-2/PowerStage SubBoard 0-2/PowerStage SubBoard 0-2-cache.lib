@@ -1,24 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Amplifier_Current_MCP6C02_xxx
-#
-DEF Amplifier_Current_MCP6C02_xxx U 0 40 Y Y 1 F N
-F0 "U" 0 -300 50 H V C CNN
-F1 "Amplifier_Current_MCP6C02_xxx" 0 300 50 H V C CNN
-F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 125 0 50 H I C CNN
-F3 "" 125 0 50 H I C CNN
-DRAW
-S -250 250 250 -250 0 1 0 f
-X VOUT 1 350 50 100 L 50 50 1 1 O
-X VSS 2 350 -150 100 L 50 50 1 1 W
-X VIN+ 3 -350 50 100 R 50 50 1 1 I
-X VIN- 4 -350 -50 100 R 50 50 1 1 I
-X VREF 5 350 -50 100 L 50 50 1 1 B
-X VDD 6 350 150 100 L 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
 # Analog_ADC_MCP3425A0T-ECH
 #
 DEF Analog_ADC_MCP3425A0T-ECH U 0 40 Y Y 1 F N
@@ -272,11 +254,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Driver_FET_BQ76200
+# PowerStage-SubBoard-0-2-rescue_BQ76200-Driver_FET
 #
-DEF Driver_FET_BQ76200 U 0 40 Y Y 1 F N
+DEF PowerStage-SubBoard-0-2-rescue_BQ76200-Driver_FET U 0 40 Y Y 1 F N
 F0 "U" 450 700 50 H V C CNN
-F1 "Driver_FET_BQ76200" -350 700 50 H V C CNN
+F1 "PowerStage-SubBoard-0-2-rescue_BQ76200-Driver_FET" -350 700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -300,14 +282,13 @@ X VSS 9 650 -600 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_FDD86387
+# PowerStage-SubBoard-0-2-rescue_FDD86387-Transistor_FET
 #
-DEF Transistor_FET_FDD86387 Q 0 0 Y N 1 F N
+DEF PowerStage-SubBoard-0-2-rescue_FDD86387-Transistor_FET Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_FDD86387" 200 0 50 H V L CNN
+F1 "PowerStage-SubBoard-0-2-rescue_FDD86387-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS TP0610L_copy VP0610L_copy
 $FPLIST
  TO?92*
 $ENDFPLIST
@@ -336,11 +317,29 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_RUC002N05HZGT116
+# PowerStage-SubBoard-0-2-rescue_MCP6C02_xxx-Amplifier_Current
 #
-DEF Transistor_FET_RUC002N05HZGT116 Q 0 0 Y N 1 F N
+DEF PowerStage-SubBoard-0-2-rescue_MCP6C02_xxx-Amplifier_Current U 0 40 Y Y 1 F N
+F0 "U" 0 -300 50 H V C CNN
+F1 "PowerStage-SubBoard-0-2-rescue_MCP6C02_xxx-Amplifier_Current" 0 300 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 125 0 50 H I C CNN
+F3 "" 125 0 50 H I C CNN
+DRAW
+S -250 250 250 -250 0 1 0 f
+X VOUT 1 350 50 100 L 50 50 1 1 O
+X VSS 2 350 -150 100 L 50 50 1 1 W
+X VIN+ 3 -350 50 100 R 50 50 1 1 I
+X VIN- 4 -350 -50 100 R 50 50 1 1 I
+X VREF 5 350 -50 100 L 50 50 1 1 B
+X VDD 6 350 150 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# PowerStage-SubBoard-0-2-rescue_RUC002N05HZGT116-Transistor_FET
+#
+DEF PowerStage-SubBoard-0-2-rescue_RUC002N05HZGT116-Transistor_FET Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_RUC002N05HZGT116" 200 0 50 H V L CNN
+F1 "PowerStage-SubBoard-0-2-rescue_RUC002N05HZGT116-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -371,14 +370,13 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_SQJ479EP
+# PowerStage-SubBoard-0-2-rescue_SQJ479EP-Transistor_FET
 #
-DEF Transistor_FET_SQJ479EP Q 0 0 Y N 1 F N
+DEF PowerStage-SubBoard-0-2-rescue_SQJ479EP-Transistor_FET Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_SQJ479EP" 200 0 50 H V L CNN
+F1 "PowerStage-SubBoard-0-2-rescue_SQJ479EP-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_SO:Vishay_PowerPAK_1212-8_Single" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS VP0610T_copy BSS84_copy NTR2101P_copy BSS83P_copy Si2319CDS_copy IRLML6402_copy DMG2301L_copy
 $FPLIST
  SOT?23*
 $ENDFPLIST
@@ -409,14 +407,13 @@ X D 5 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Transistor_FET_TK7S10N1Z
+# PowerStage-SubBoard-0-2-rescue_TK7S10N1Z-Transistor_FET
 #
-DEF Transistor_FET_TK7S10N1Z Q 0 0 Y N 1 F N
+DEF PowerStage-SubBoard-0-2-rescue_TK7S10N1Z-Transistor_FET Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Transistor_FET_TK7S10N1Z" 200 0 50 H V L CNN
+F1 "PowerStage-SubBoard-0-2-rescue_TK7S10N1Z-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:TO-252-2" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
-ALIAS TP0610L_copy_copy VP0610L_copy_copy
 $FPLIST
  TO?92*
 $ENDFPLIST

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:PowerStage SubBoard 0-2-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PowerStage-SubBoard-0-2-rescue:MCP6C02_xxx-Amplifier_Current U2
+L Amplifier_Current:MCP6C02_xxx U2
 U 1 1 5D18173E
 P 4000 3100
 F 0 "U2" H 4000 3515 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "~" H 3650 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PowerStage-SubBoard-0-2-rescue:FDD86387-Transistor_FET Q4
+L Transistor_FET:FDD86387 Q4
 U 1 1 5D184545
 P 6750 3100
 F 0 "Q4" V 7000 3100 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDD86367_F085-D.PDF" H 6750 3100 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerStage-SubBoard-0-2-rescue:FDD86387-Transistor_FET Q3
+L Transistor_FET:FDD86387 Q3
 U 1 1 5D184BA3
 P 6750 2500
 F 0 "Q3" V 7000 2500 50  0000 C CNN
@@ -115,7 +115,7 @@ F 3 "https://www.onsemi.com/pub/Collateral/FDD86367_F085-D.PDF" H 6750 2500 50  
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerStage-SubBoard-0-2-rescue:TK7S10N1Z-Transistor_FET Q1
+L Transistor_FET:TK7S10N1Z Q1
 U 1 1 5D1859C0
 P 5400 1450
 F 0 "Q1" V 5300 1600 50  0000 C CNN
@@ -126,7 +126,7 @@ F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=15153&prodName=TK7S
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PowerStage-SubBoard-0-2-rescue:SQJ479EP-Transistor_FET Q2
+L Transistor_FET:SQJ479EP Q2
 U 1 1 5D18650E
 P 6750 1450
 F 0 "Q2" V 6650 1600 50  0000 C CNN
@@ -137,7 +137,7 @@ F 3 "http://www.vishay.com/docs/75129/sqj479ep.pdf" H 6750 1450 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L PowerStage-SubBoard-0-2-rescue:FDD86387-Transistor_FET Q5
+L Transistor_FET:FDD86387 Q5
 U 1 1 5D18E0B3
 P 6750 3700
 F 0 "Q5" V 7000 3700 50  0000 C CNN
@@ -1503,7 +1503,7 @@ $EndComp
 Wire Wire Line
 	1800 5750 3000 5750
 $Comp
-L PowerStage-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q6
+L Transistor_FET:RUC002N05HZGT116 Q6
 U 1 1 5D30E887
 P 3600 6500
 F 0 "Q6" H 3806 6546 50  0000 L CNN
@@ -1543,7 +1543,7 @@ Wire Wire Line
 	4350 4950 4300 4950
 Connection ~ 4300 4950
 $Comp
-L PowerStage-SubBoard-0-2-rescue:BQ76200-Driver_FET U3
+L Driver_FET:BQ76200 U3
 U 1 1 5D19BF3C
 P 4950 5450
 F 0 "U3" H 4950 6265 50  0000 C CNN

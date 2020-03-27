@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AFE SubBoard 0-2-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L AFE-SubBoard-0-2-rescue:BQ76930-Battery_Management U1
+L Battery_Management:BQ76930 U1
 U 1 1 5D5AF11C
 P 5700 5650
 F 0 "U1" H 5700 6765 50  0000 C CNN
@@ -127,7 +127,7 @@ F 4 "3/4W" V 1850 1250 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q1
+L Transistor_FET:RUC002N05HZGT116 Q1
 U 1 1 5D5B0DB9
 P 2400 1350
 F 0 "Q1" H 2300 1500 50  0000 L CNN
@@ -265,7 +265,7 @@ F 4 "3/4W" V 1850 2100 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q2
+L Transistor_FET:RUC002N05HZGT116 Q2
 U 1 1 5D681757
 P 2400 2200
 F 0 "Q2" H 2300 2350 50  0000 L CNN
@@ -403,7 +403,7 @@ F 4 "3/4W" V 1850 2950 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q3
+L Transistor_FET:RUC002N05HZGT116 Q3
 U 1 1 5D684E39
 P 2400 3050
 F 0 "Q3" H 2300 3200 50  0000 L CNN
@@ -541,7 +541,7 @@ F 4 "3/4W" V 1850 3800 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q4
+L Transistor_FET:RUC002N05HZGT116 Q4
 U 1 1 5D6883F7
 P 2400 3900
 F 0 "Q4" H 2300 4050 50  0000 L CNN
@@ -679,7 +679,7 @@ F 4 "3/4W" V 1850 4650 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q5
+L Transistor_FET:RUC002N05HZGT116 Q5
 U 1 1 5D68DB38
 P 2400 4750
 F 0 "Q5" H 2300 4900 50  0000 L CNN
@@ -812,7 +812,7 @@ F 4 "3/4W" V 1850 5900 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q6
+L Transistor_FET:RUC002N05HZGT116 Q6
 U 1 1 5D69381A
 P 2400 6000
 F 0 "Q6" H 2300 6150 50  0000 L CNN
@@ -975,7 +975,7 @@ F 4 "3/4W" V 1850 6750 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q7
+L Transistor_FET:RUC002N05HZGT116 Q7
 U 1 1 5D69BD5B
 P 2400 6850
 F 0 "Q7" H 2300 7000 50  0000 L CNN
@@ -1113,7 +1113,7 @@ F 4 "3/4W" V 1850 7600 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q8
+L Transistor_FET:RUC002N05HZGT116 Q8
 U 1 1 5D6A3969
 P 2400 7700
 F 0 "Q8" H 2300 7850 50  0000 L CNN
@@ -1251,7 +1251,7 @@ F 4 "3/4W" V 1850 8450 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q9
+L Transistor_FET:RUC002N05HZGT116 Q9
 U 1 1 5D6AE7CA
 P 2400 8550
 F 0 "Q9" H 2300 8700 50  0000 L CNN
@@ -1389,7 +1389,7 @@ F 4 "3/4W" V 1850 9300 50  0001 C CNN "Power Rating"
 	-1   0    0    1   
 $EndComp
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q10
+L Transistor_FET:RUC002N05HZGT116 Q10
 U 1 1 5D6BA767
 P 2400 9400
 F 0 "Q10" H 2300 9550 50  0000 L CNN
@@ -2307,7 +2307,7 @@ Wire Wire Line
 Text Label 6400 2500 2    50   ~ 0
 VC5X
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q11
+L Transistor_FET:RUC002N05HZGT116 Q11
 U 1 1 5E45405D
 P 5450 2500
 F 0 "Q11" H 5350 2650 50  0000 L CNN
@@ -2390,7 +2390,7 @@ Wire Wire Line
 Text Label 6500 1500 0    50   ~ 0
 USB_BOOT
 $Comp
-L AFE-SubBoard-0-2-rescue:RUC002N05HZGT116-Transistor_FET Q12
+L Transistor_FET:RUC002N05HZGT116 Q12
 U 1 1 5E9E9D4F
 P 5450 9000
 F 0 "Q12" H 5350 9150 50  0000 L CNN
@@ -2953,8 +2953,4 @@ $EndComp
 Connection ~ 1300 9800
 Wire Wire Line
 	1300 9800 2300 9800
-Text Notes 4800 7750 0    50   ~ 0
-REPLACE WITH 10K\nOR REMOVE CAP
-Wire Notes Line
-	5500 7700 5850 7500
 $EndSCHEMATC

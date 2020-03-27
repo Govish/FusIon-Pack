@@ -1,4 +1,4 @@
-16340288419193522
+16390829644132608
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42672,12 +42672,47 @@ THT ceramic resonator filter DSS6
 3
 3
 Custom-DiscreteSemi
+LED_1206ReverseMount
+LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+diode reverse
+0
+2
+2
+Custom-DiscreteSemi
+LED_RGB_Wurth_1204_Right
+
+
+0
+4
+4
+Custom-DiscreteSemi
 TO-220-3-AAVID-5932
 
 
 0
 5
 4
+Custom-DiscreteSemi
+Vishay_PowerPAK_SO-8
+
+
+0
+8
+3
+Custom-Electromechanical
+Buzzer_CUI_CPT9019S
+https://www.cui.com/product/resource/cpt-9019s-smt.pdf
+buzzer piezo
+0
+2
+2
+Custom-Electromechanical
+CUI_UJ2-BH-W1-TH
+CONN RCPT USB 2.0 TYPE B 4POS R/A
+USB - B USB 2.0 Receptacle Connector 4 Position Through Hole, Right Angle
+0
+6
+5
 Custom-Electromechanical
 Conn_BindingPost_Black
 
@@ -42693,12 +42728,75 @@ Conn_BindingPost_Red
 1
 1
 Custom-Electromechanical
+PinHeader_2x05_P2.54mm_Shrouded
+surface-mounted straight pin header, 2x05, 2.54mm pitch, double rows, shrouded
+Surface mounted pin header SMD 2x05 2.54mm double row
+0
+10
+10
+Custom-Electromechanical
 Potentiometer-reverse-mount-160
 
 
 0
 3
 3
+Custom-Electromechanical
+Potentiometer_Vishay_TS53YJ
+Potentiometer, vertical, Vishay TS53YJ, https://www.vishay.com/docs/51008/ts53.pdf
+Potentiometer vertical Vishay TS53YJ
+0
+3
+3
+Custom-Electromechanical
+Rotary_Encoder_RGB
+
+
+0
+10
+9
+Custom-Electromechanical
+SD_TE_2041021
+SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
+sd card
+0
+15
+12
+Custom-Electromechanical
+TerminalBlock_TE_2.54mmx02
+Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
+THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm
+0
+2
+2
+Custom-Electromechanical
+USB_A_CNC_Tech-1001-008B-01001
+
+
+0
+7
+5
+Custom-Electromechanical
+USB_C_Receptacle_TE_2305018-2
+
+
+0
+31
+25
+Custom-Electromechanical
+XT30U-F
+Connector XT30 Vertical Cable Female, https://www.tme.eu/en/Document/3cbfa5cfa544d79584972dd5234a409e/XT30U%20SPEC.pdf
+RC Connector XT30
+0
+2
+2
+Custom-Electromechanical
+XT60-Female
+
+
+0
+4
+2
 Custom-Graphics
 Cell_Graphic_C1
 
@@ -42839,6 +42937,48 @@ Cell_Graphics_C9
 0
 0
 0
+Custom-Graphics
+Icon_SD
+
+
+0
+0
+0
+Custom-Graphics
+Icon_Stepper
+
+
+0
+0
+0
+Custom-Graphics
+Icon_Temp
+
+
+0
+0
+0
+Custom-Mechanical
+MountingHole-3mm_6mm_ring
+
+
+0
+1
+1
+Custom-Mechanical
+RGB_Encoder_Hole
+
+
+0
+0
+0
+Custom-Mechanical
+TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal
+Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
+THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm
+0
+2
+2
 Custom-RLC
 C_Rect_L7.5mm_W2.5mm_P5.08mm
 
@@ -42846,6 +42986,83 @@ C_Rect_L7.5mm_W2.5mm_P5.08mm
 0
 2
 2
+Daughterboards
+Arduino_101_Shield
+https://store.arduino.cc/genuino-101
+
+0
+38
+38
+Daughterboards
+Arduino_Due_Shield
+https://store.arduino.cc/arduino-due
+
+0
+92
+91
+Daughterboards
+Arduino_Leonardo_Shield
+https://store.arduino.cc/arduino-leonardo-with-headers
+
+0
+38
+37
+Daughterboards
+Arduino_Mega2560_Shield
+https://store.arduino.cc/arduino-mega-2560-rev3
+
+0
+92
+91
+Daughterboards
+Arduino_Micro_Socket
+https://store.arduino.cc/arduino-micro
+
+0
+34
+32
+Daughterboards
+Arduino_Mini_Socket
+https://store.arduino.cc/arduino-mini-05
+
+0
+35
+35
+Daughterboards
+Arduino_Nano_Socket
+https://store.arduino.cc/arduino-nano
+
+0
+30
+30
+Daughterboards
+Arduino_Uno_Shield
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+38
+37
+Daughterboards
+Arduino_Zero_Shield
+https://store.arduino.cc/genuino-zero
+
+0
+38
+38
+Daughterboards
+ESP32
+
+
+0
+0
+0
+Daughterboards
+TMC-21x0
+
+
+0
+18
+18
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -72306,6 +72523,13 @@ Transformer_THT
 Transformer_Wuerth_750343373
 Transformer, horizontal core with bobbin, 10 pin, 3.81mm pitch, 15.24mm row spacing, 22x23x17.53mm (https://katalog.we-online.com/ctm/datasheet/750343373.pdf)
 transformer flyback
+0
+10
+10
+USBmini10pin
+usbMini10pin
+
+
 0
 10
 10
